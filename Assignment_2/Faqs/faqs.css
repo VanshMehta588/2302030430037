@@ -1,0 +1,709 @@
+.svg-icon {
+    height: 7px;
+    width: 10px;
+    position: absolute;
+    margin: 0 !important;
+    top: 28.5px;
+    right: 298px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .input,
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  .search {
+    width: 43.2px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-nunito);
+    font-size: var(--font-size-sm);
+    background-color: transparent;
+    height: 19.2px;
+    position: relative;
+    color: #a0aec0;
+    text-align: left;
+  }
+  .input {
+    flex: 1;
+    border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+    background-color: var(--color-white);
+    border-top: 0.8px solid var(--color-darkgray);
+    border-bottom: 0.8px solid var(--color-darkgray);
+    border-left: 0.8px solid var(--color-darkgray);
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 17px var(--padding-4xs);
+    max-width: 100%;
+  }
+  .search1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 21px;
+    font-family: var(--font-nunito);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .button,
+  .search-button {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .button {
+    cursor: pointer;
+    border: 1px solid var(--color-midnightblue);
+    padding: var(--padding-4xs) var(--padding-5xs) var(--padding-5xs);
+    background-color: var(--color-midnightblue);
+    width: 88px;
+    border-radius: 0 var(--br-7xs) var(--br-7xs) 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1px;
+  }
+  .button:hover {
+    background-color: var(--color-darkslateblue);
+    border: 1px solid var(--color-darkslateblue);
+    box-sizing: border-box;
+  }
+  .search-button {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    max-width: 100%;
+  }
+  .home {
+    position: relative;
+    line-height: 24px;
+  }
+  .svg-icon1 {
+    height: 7px;
+    width: 10px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-f,
+  .home-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 11px;
+  }
+  .frame-f {
+    width: 699px;
+    padding: 0 var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    gap: 0 22px;
+    max-width: 100%;
+  }
+  .link-brownies,
+  .link-cakes {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-gift,
+  .link-tea {
+    white-space: nowrap;
+  }
+  .link-cookies,
+  .link-cupcakes,
+  .link-gift,
+  .link-tea {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-gift-boxes,
+  .link-tea-cakes {
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .link-tea-cakes {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px 0 0;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .link-gift-boxes {
+    align-self: stretch;
+    padding: 0 var(--padding-12xl) 0 0;
+  }
+  .frame-d,
+  .frame-e,
+  .link-gift-boxes {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-e {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 31px 0;
+  }
+  .frame-d {
+    width: 770px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 19px;
+    box-sizing: border-box;
+  }
+  .link-heading {
+    position: relative;
+    line-height: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .link-to-f-a-q {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+  }
+  .link-shop {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-svg {
+    height: 7px;
+    width: 10px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .divpagefooter,
+  .link-to-shop {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .link-to-shop {
+    flex-direction: row;
+    align-items: center;
+    gap: 0 11px;
+    font-size: var(--font-size-base);
+  }
+  .divpagefooter {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px 0;
+  }
+  .heading-frequently-asked-quest {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .account {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    display: inline-block;
+    margin-top: -86px;
+  }
+  .frame-c,
+  .input-search-button,
+  .link-cookies1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .link-cookies1 {
+    flex: 1;
+    align-items: flex-end;
+    margin-top: -89px;
+    font-size: var(--font-size-xl);
+  }
+  .frame-c,
+  .input-search-button {
+    max-width: 100%;
+  }
+  .input-search-button {
+    flex: 1;
+    align-items: center;
+  }
+  .frame-c {
+    width: 972px;
+    align-items: flex-start;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+  }
+  .divflex-icon {
+    height: 60px;
+    width: 24px;
+    position: relative;
+  }
+  .div11359807,
+  .frame-a {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .div11359807 {
+    flex: 1;
+    background-color: var(--color-white);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    justify-content: center;
+    padding: 0 var(--padding-xl) 18px;
+    position: relative;
+    gap: 0 52px;
+  }
+  .frame-a {
+    height: 124px;
+    justify-content: flex-start;
+    padding: 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+    font-family: var(--font-nunito);
+  }
+  .link-home {
+    line-height: 21px;
+  }
+  .faq,
+  .link-home,
+  .svg-icon2 {
+    position: relative;
+  }
+  .svg-icon2 {
+    height: 10px;
+    width: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .faq {
+    line-height: 21px;
+    color: #313131;
+  }
+  .link-to-home-f-a-q {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) var(--padding-4xs) 0;
+    gap: 0 11px;
+    font-size: var(--font-size-sm);
+    color: var(--color-midnightblue);
+  }
+  .faq1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .heading-3 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .policies-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px 0;
+    font-size: 24px;
+  }
+  .how-long-will-it-take-to-recei,
+  .we-aim-to,
+  .you-can-find {
+    margin: 0;
+  }
+  .heading-2-container {
+    position: relative;
+    line-height: 24px;
+  }
+  .delivery-for-your,
+  .we-accept-major,
+  .what-payment-methods-do-you-ac {
+    margin: 0;
+  }
+  .heading-2-container1 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .be-in-its,
+  .we-have-a,
+  .what-is-your-return-policy {
+    margin: 0;
+  }
+  .heading-2-container2 {
+    position: relative;
+    line-height: 24px;
+  }
+  .how-can-i {
+    font-family: var(--font-nunito);
+  }
+  .how-can-i-contact-your-custome {
+    margin: 0;
+  }
+  .supportexamplestorecom {
+    text-decoration: underline;
+  }
+  .our-contact-us-page-our-dedic,
+  .we-are-here-to-assist-you-you {
+    margin: 0;
+  }
+  .heading-2-container3 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .deals-promotions-and,
+  .do-you-offer-any-offers-or-pro,
+  .yes-we-periodically {
+    margin: 0;
+  }
+  .heading-2-container4 {
+    position: relative;
+    line-height: 24px;
+  }
+  .heading-strong,
+  .heading-strong-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .heading-strong {
+    flex-direction: column;
+    gap: 23px 0;
+  }
+  .heading-strong-wrapper {
+    flex-direction: row;
+    padding: 0 0 33px var(--padding-8xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-nunito);
+  }
+  .policies {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-cancellation,
+  .link-privacy,
+  .link-shipping,
+  .link-terms {
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+  }
+  .cancellation-refund,
+  .terms-conditions-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cancellation-refund {
+    gap: 16px 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkslategray-100);
+  }
+  .terms-conditions-text {
+    gap: 24px 0;
+  }
+  .account1,
+  .link-track {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-track {
+    font-size: var(--font-size-sm);
+    text-decoration: underline;
+    line-height: 21px;
+    color: var(--color-darkslategray-100);
+    white-space: nowrap;
+  }
+  .privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 68px 0 0;
+    gap: 24px 0;
+  }
+  .company {
+    position: relative;
+    line-height: 24px;
+  }
+  .link-about,
+  .link-contact,
+  .link-faqs {
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+  }
+  .account2,
+  .divpagefooter2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .account2 {
+    gap: 16px 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkslategray-100);
+  }
+  .divpagefooter2 {
+    padding: 0 71px 0 0;
+    gap: 24px 0;
+  }
+  .contact-us {
+    position: relative;
+    line-height: 24px;
+  }
+  .phone24fe3f1csvg-icon {
+    height: 21px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 21px;
+  }
+  .link-9899640033 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+  }
+  .facebook-twitter-instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 14px;
+  }
+  .footeremail0a326270svg-icon {
+    height: 21px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 21px;
+  }
+  .link-store4imojofood3gmail {
+    flex: 1;
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  .facebook-twitter-instagram1,
+  .locationlogo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 14px;
+  }
+  .locationlogo {
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  .locationb5eed89bsvg-icon {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ahemdabadgujarat-380015 {
+    flex: 1;
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+  }
+  .footerlogo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 14px;
+  }
+  .company1,
+  .phone-email-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .phone-email-links {
+    align-self: stretch;
+    gap: 15px 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkslategray-100);
+  }
+  .company1 {
+    width: 229px;
+    gap: 24px 0;
+  }
+  .cancellation-refund-text,
+  .cancellation-refund-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .cancellation-refund-text {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .cancellation-refund-text-wrapper {
+    width: 1040px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xl) 0 0;
+    box-sizing: border-box;
+  }
+  .link-anchor {
+    position: relative;
+    line-height: 30px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .link-finstagram5e68199csvg,
+  .link-fpinteresta8de1786svg,
+  .link-fyoutubea3a9ac2fsvg,
+  .link-sfacebookcbc17f55svg,
+  .link-stwittera271cddcsvg {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .social-links {
+    width: 333px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    gap: 0 32px;
+    max-width: 100%;
+  }
+  .store24x7-anchorcom {
+    flex: 1;
+    display: inline-block;
+    min-width: 122px;
+  }
+  .anchor-text,
+  .store24x7-anchorcom {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .spanh-4 {
+    height: 4px;
+    width: 4px;
+    position: relative;
+    border-radius: 9999px;
+    background-color: var(--color-darkslategray-100);
+    border: 1px solid var(--color-darkslategray-100);
+    box-sizing: border-box;
+  }
+  .you-tube-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 0 3px;
+  }
+  .all-rights-reserved {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .instagram-link {
+    width: 413px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 0 2px;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkslategray-100);
+  }
+  .divflex,
+  .divpage-footer,
+  .instagram-link {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .divflex {
+    width: 1048px;
+    border-top: 0.8px solid #d8d8d8;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-xl) 0 0 0;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-xl);
+  }
+  .divpage-footer {
+    margin-bottom: -37px;
+    flex: 1;
+    background-color: #f1f1f6;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-xl) var(--padding-xl) 23px 64px;
+    gap: 32px 0;
+    min-height: 343px;
+    flex-shrink: 0;
+  }
+  .desktop-8,
+  .divpage-footer,
+  .divpagefooter1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .divpagefooter1 {
+    align-self: stretch;
+    height: 306px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+    font-family: var(--font-nunito);
+  }
+  .desktop-8 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0;
+    letter-spacing: normal;
+  }
